@@ -1,1 +1,7 @@
+# FOR BACKEND
 npm i express dotenv cookie-parser bcryptjs mongoose socket.io jsonwebtoken
+
+
+# FOR FRONTEND
+npm install -D tailwindcss postcss autoprefixer
+npm i -D daisyui@latest #tailwind + daisyui
