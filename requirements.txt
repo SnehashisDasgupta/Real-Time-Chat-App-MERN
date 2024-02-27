@@ -4,4 +4,10 @@ npm i express dotenv cookie-parser bcryptjs mongoose socket.io jsonwebtoken
 
 # FOR FRONTEND
 npm install -D tailwindcss postcss autoprefixer
-npm i -D daisyui@latest #tailwind + daisyui
+npx tailwindcss init -p
+
+npm i -D daisyui@latest #daisyUI plugin
+
+npm i react-router-dom
+
+npm i react-hot-toast

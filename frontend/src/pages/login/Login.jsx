@@ -1,7 +1,9 @@
+import { Link } from "react-router-dom";
+
 function Login() {
   return (
     <div className="flex flex-col items-center justify-center min-w-96 mx-auto">
-      <div className=" w-full p-6 bg-gray-500 rounded-lg bg-clip-padding backdrop-filter backdrop-blur-3xl bg-opacity-10">
+      <div className=" w-full p-6 bg-gray-500 rounded-lg bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10">
         <h1 className="text-3xl font-semibold text-center text-gray-300">
           Login
           <span className="text-blue-400"> ChatApp </span>
@@ -29,9 +31,12 @@ function Login() {
               className="w-full input input-bordered h-10"
             />
           </div>
-          <a href="#" className="text-sm hover:underline hover:text-blue-500 mt-2 inline-block">
+          <Link
+            to={"/signup"}
+            className="text-sm hover:underline hover:text-blue-500 mt-2 inline-block"
+          >
             {"Don't"} have an account?
-          </a>
+          </Link>
 
           <div>
             <button className="btn btn-block btn-sm mt-2">Login</button>
@@ -44,7 +49,6 @@ function Login() {
 
 export default Login;
 
-
 // STARTER CODE FOR SIGNUP COMPONENT
 
 // function Login() {
@@ -55,7 +59,7 @@ export default Login;
 //             Login
 //             <span className="text-blue-400"> ChatApp </span>
 //           </h1>
-  
+
 //           <form action="">
 //             <div>
 //               <label className="label p-2">
@@ -67,7 +71,7 @@ export default Login;
 //                 className="w-full input input-bordered h-10"
 //               />
 //             </div>
-  
+
 //             <div>
 //               <label className="label">
 //                 <span className="text-base label-text">Password</span>
@@ -81,7 +85,7 @@ export default Login;
 //             <a href="#" className="text-sm hover:underline hover:text-blue-500 mt-2 inline-block">
 //               {"Don't"} have an account?
 //             </a>
-  
+
 //             <div>
 //               <button className="btn btn-block btn-sm mt-2">Login</button>
 //             </div>
@@ -90,6 +94,5 @@ export default Login;
 //       </div>
 //     );
 //   }
-  
-//   export default Login;
 
+//   export default Login;
