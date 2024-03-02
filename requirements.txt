@@ -1,6 +1,7 @@
 # FOR BACKEND
-npm i express dotenv cookie-parser bcryptjs mongoose socket.io jsonwebtoken
+npm i express dotenv cookie-parser bcryptjs mongoose jsonwebtoken
 
+npm i socket.io 
 
 # FOR FRONTEND
 npm install -D tailwindcss postcss autoprefixer
@@ -13,3 +14,5 @@ npm i react-router-dom
 npm i react-hot-toast
 
 npm install zustand # state management library
+
+npm i socket.io-client
