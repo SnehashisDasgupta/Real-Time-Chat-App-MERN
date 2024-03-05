@@ -1,3 +1,9 @@
+- WELCOME PAGE
+  ![Screenshot (332)](https://github.com/SnehashisDasgupta/Real-Time-Chat-App-MERN/assets/78195442/85ee57d1-f5c4-4d37-bcb5-820d6334ee55)
+
+- CONVERSATION
+![Screenshot (333)](https://github.com/SnehashisDasgupta/Real-Time-Chat-App-MERN/assets/78195442/f97673b1-8a54-4acc-97e1-dfe0ad0e34c7)
+
 Some Features:
 
 -   🌟 MERN + Socket.io + TailwindCSS + Daisy UI
@@ -6,7 +12,7 @@ Some Features:
 -   🚀 Online user status (Socket.io and React Context)
 -   👌 Global state management with Zustand
 -   🐞 Error handling both on the server and on the client
--   ⭐ will DEPLOY
+
 
 ### Setup .env file
 
