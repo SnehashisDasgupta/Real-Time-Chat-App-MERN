@@ -11,7 +11,8 @@ const useListenMessages = () => {
 
   useEffect(() => {
     socket?.on("newMessage", (newMessage) => {
-        newMessage.shouldShake = true;
+        newMessage.shouldShake = true; // newMessage bubble will shake when user receive a newMessage 
+        // notification sound will play when newMessage receivedk
         const sound = new Audio(notificationSound);
         sound.play();
         setMessages([...messages, newMessage]);

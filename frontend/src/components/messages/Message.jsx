@@ -11,6 +11,7 @@ const Message = ({message}) => {
   const bubbleBgColor = fromMe ? 'bg-blue-700' : '';
   const formatedTime = extractTime(message.createdAt);
 
+  // newMessage bubble will shake when user receive a newMessage 
   const shakeClass = message.shouldShake? "shake" : "";
   
   return (

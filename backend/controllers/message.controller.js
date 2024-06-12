@@ -35,8 +35,10 @@ export const sendMessage = async (req, res) => {
 
         // SOCKET IO FUNCTIONALITY
         const receiverSocketId = getReceiverSocketId(receiverId);
+        // if user is online
         if (receiverSocketId) {
             // io.to(<socket._id).emit() used to sent events to a specefic client
+            // to send msg to a specific user and not all
             io.to(receiverSocketId).emit("newMessage", newMessage);
         }
 
