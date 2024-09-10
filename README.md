@@ -1,6 +1,3 @@
-### Deployed:
-https://chat-app-226u.onrender.com/
-
 - WELCOME PAGE
   ![Screenshot (332)](https://github.com/SnehashisDasgupta/Real-Time-Chat-App-MERN/assets/78195442/85ee57d1-f5c4-4d37-bcb5-820d6334ee55)
 
